@@ -48,7 +48,7 @@ $_config['maxLockTime'] = 15; // seconds
 $_config['errorExitCode'] = 1;
 
 // When checking for long running queries, which "Command" values should be ignored
-$_config['processlistIgnoreCommands'] = array('Sleep', 'Delayed insert', 'Binlog Dump', 'Connect');
+$_config['processlistIgnoreCommands'] = array('Sleep', 'Delayed insert', 'Binlog Dump', 'Connect', 'Slave_IO');
 
 // When true, all log messages are also sent to STDOUT
 $_config['outputLog'] = false;
